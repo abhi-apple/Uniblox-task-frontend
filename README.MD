@@ -1,30 +1,33 @@
-# 🛠️ Uniblox Task Backend
+# 🛍️ Uniblox Task Frontend
 
-This is the backend for the Uniblox eCommerce task, built with Express.js and designed to be deployed on Vercel.
+This is the frontend for the Uniblox eCommerce task, built using **React**, **TypeScript**, and **Tailwind CSS**. It allows users to browse items, manage a cart, apply discount codes, and place orders.
+
+---
 
 ## ✅ Features
 
-- Cart management (add/view items)
-- Checkout with discount code support
-- Admin endpoints for stats and discount code generation
-- CORS support for frontend integration
+- 🛒 Add to Cart & View Cart
+- 💸 Apply Discount Codes During Checkout
+- 📦 View Order Summary
+- 🔐 Admin Panel to Generate Codes & View Stats
+- 🎨 Responsive UI with Tailwind CSS
 
 ---
 
-## 📦 Tech Stack
+## 🔧 Tech Stack
 
-- Node.js
-- Express.js
-- UUID
-- CORS
-- Vercel (Serverless Deployment)
+- React.js
+- TypeScript
+- Tailwind CSS
+- Vite
+- REST API integration
 
 ---
 
-## 🔧 Local Setup
+## 🚀 Getting Started (Local)
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/uniblox-task-backend.git
-cd uniblox-task-backend
-npm install
-npm run dev
+git clone https://github.com/your-username/uniblox-task-frontend.git
+cd uniblox-task-frontend
