@@ -3,7 +3,7 @@
 // For demo purposes, we'll use a fixed userId
 export const DEMO_USER_ID = "user123"
 
-const API_BASE_URL = "http://localhost:9090"
+const API_BASE_URL = "https://uniblox-task-backend.vercel.app"
 
 // Types
 export interface CartItem {
